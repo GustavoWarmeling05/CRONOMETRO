@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(99, 5, 5);
+}
+
+.conteiner {
+    margin-top: 15%;
+}
+
+.botoes {
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.botoes button {
+    display: flex;
+    margin: auto;
+    padding: 2%;
+}
+
+.botoes-centro {
+    width: 20%;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.textocentro {
+    margin: auto;
+    display: flex;
+}
+
+#timer {
+    width: 50%;
+    color: white;
+    display: grid;
+    margin: auto;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#timer p {
+    color: white;
+    margin: 0 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+button {
+    background-color: rgb(247, 181, 0);
+    position: relative;
+    margin: auto;
+    border: 2px solid;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
